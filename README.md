@@ -4,7 +4,7 @@
 Hi, I'm Yug Jariya, a Cyber Security student learning blue teaming and SOC operations.
 
 ## 🎯 Goal
-Become a SOC Analyst (L1)
+Become a SOC Analyst(L1)
 
 ## 📅 Start Date
 12 May 2026
