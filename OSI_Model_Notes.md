@@ -1,6 +1,6 @@
 # OSI Model Notes
 
-## What is OSI Model?
+# What is OSI Model?
 OSI stands for **Open Systems Interconnection**.  
 It is a 7-layer model used to understand how data travels from one device to another over a network.
 
@@ -27,9 +27,9 @@ Application → Presentation → Session → Transport → Network → Data Link
 ## SOC Analyst Use
 As a future SOC Analyst, OSI helps in understanding:
 - Network traffic
-- SIEM logs
+- SIEM logs.
 - Firewall alerts
-- Packet analysis in Wireshark
+- Packet  analysis in Wireshark
 - Troubleshooting attacks layer by layer
 
 ## Example
