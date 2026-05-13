@@ -25,3 +25,4 @@ Become a SOC Analyst(L1)
 
 ## 🚀 Current Focus
 Learning SOC fundamentals and building practical cyber security skills daily.
+to be continued......
