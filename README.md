@@ -18,7 +18,7 @@ Become a SOC Analyst(L1)
 - Threat Detection
 - Incident Response
 
-## 🧪 Practice Platforms
+ 🧪 Practice Platforms
 - TryHackMe
 - LetsDefend
 - CyberDefenders
