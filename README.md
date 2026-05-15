@@ -12,7 +12,7 @@ Become a SOC Analyst(L1)
 ## 🛣️ Learning Roadmap
 - Networking Basics
 - Linux Fundamentals
-- SIEM & Splunk
+- SIEM
 - Wireshark
 - Log Analysis
 - Threat Detection
