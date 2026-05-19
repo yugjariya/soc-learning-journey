@@ -16,7 +16,6 @@ Become a SOC Analyst(L1)
 - Wireshark
 - Log Analysis
 - Threat Detection
-- Incident Response
 
  🧪 Practice Platforms
 - TryHackMe
