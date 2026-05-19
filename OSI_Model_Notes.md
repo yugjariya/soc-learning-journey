@@ -39,7 +39,5 @@ If a website is not opening:
 - Layer 4: TCP port issue
 - Layer 7: HTTP/DNS issue
 
-## My Learning Goal
-I am learning the OSI Model to build a strong foundation in networking and cybersecurity.
-to be continued 
+
 
