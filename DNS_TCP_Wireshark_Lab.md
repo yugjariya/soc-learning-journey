@@ -10,7 +10,7 @@ The objective of this lab was to analyze DNS and TCP traffic using Wireshark and
 - Web Browser
 - Internet Connection
 
----
+
 
 # Introduction
 
