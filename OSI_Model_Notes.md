@@ -2,7 +2,7 @@
 
 # What is OSI Model?
 OSI stands for **Open Systems Interconnection**.  
-It is a 7-layer model used to understand how data travels from one device to another over a network.
+Itis a 7-layer model used to understand how data travels from one device to another over a network.
 
 ## OSI Model Diagram
 ![OSI Model Diagram](https://upload.wikimedia.org/wikipedia/commons/8/8d/OSI_Model_v1.svg)
