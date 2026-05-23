@@ -9,7 +9,7 @@ Become a SOC Analyst(L1)
 ## 📅 Start Date
 12 May 2026
 
-## 🛣️ Learning Roadmap
+## 🛣️\ Learning Roadmap
 - Networking Basics
 - Linux Fundamentals
 - SIEM
