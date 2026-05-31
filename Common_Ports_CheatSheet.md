@@ -4,7 +4,6 @@
 Ports are communication endpoints used by different network services and applications.
 
 Understanding ports is very important for:
-- SOC Analysts
 - Network Security
 - Threat Detection
 - Firewall Monitoring
