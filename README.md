@@ -25,3 +25,6 @@ Become a SOC Analyst(L1)
 ## 🚀 Current Focus
 Learning SOC fundamentals and building practical cyber security skills daily.
 
+## Practical Projects
+
+- [Brute Force Attack Detection & Investigation](projects/brute-force-detection/) — runnable Python SSH log analyzer, evidence dashboard, synthetic investigation case study, and Splunk query templates.

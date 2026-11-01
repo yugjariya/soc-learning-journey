@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "label": "Synthetic SSH lab",
+  "generated_at": "2026-11-01T09:27:20.103460+00:00",
+  "source": {
+    "name": "auth.log",
+    "sha256": "d18e58fb08034400d3d13820d4fb2aa47a95414652db7a877f496e613d4c1793",
+    "assumed_year": 2026,
+    "assumed_timezone": "+00:00"
+  },
+  "config": {
+    "failure_threshold": 5,
+    "window_seconds": 300,
+    "spray_user_threshold": 5,
+    "distributed_source_threshold": 3,
+    "success_window_seconds": 600,
+    "allowlist": []
+  },
+  "summary": {
+    "total_lines": 28,
+    "parsed_events": 27,
+    "failures": 22,
+    "successes": 5,
+    "skipped_lines": 1,
+    "malformed_lines": 0,
+    "unique_sources": 6,
+    "alerts": 4,
+    "first_event": "2026-10-20T09:00:00+00:00",
+    "last_event": "2026-10-20T09:15:00+00:00"
+  },
+  "alerts": [
+    {
+      "type": "brute_force",
+      "severity": "high",
+      "first_seen": "2026-10-20T09:03:00+00:00",
+      "last_seen": "2026-10-20T09:05:20+00:00",
+      "host": "gateway-01",
+      "source_ips": [
+        "203.0.113.10"
+      ],
+      "usernames": [
+        "admin"
+      ],
+      "failure_count": 8,
+      "evidence_lines": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "description": "Repeated failed SSH logins for one account from one source.",
+      "mitre_technique": "T1110.001",
+      "id": "BF-e968866203df"
+    },
+    {
+      "type": "suspicious_success",
+      "severity": "critical",
+      "first_seen": "2026-10-20T09:03:00+00:00",
+      "last_seen": "2026-10-20T09:06:10+00:00",
+      "host": "gateway-01",
+      "source_ips": [
+        "203.0.113.10"
+      ],
+      "usernames": [
+        "admin"
+      ],
+      "failure_count": 8,
+      "evidence_lines": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "description": "Successful SSH login followed a qualifying failure burst; investigate possible account compromise.",
+      "mitre_technique": "T1078",
+      "id": "BF-f13ee1d60c3c"
+    },
+    {
+      "type": "password_spray",
+      "severity": "high",
+      "first_seen": "2026-10-20T09:08:20+00:00",
+      "last_seen": "2026-10-20T09:09:35+00:00",
+      "host": "gateway-01",
+      "source_ips": [
+        "198.51.100.23"
+      ],
+      "usernames": [
+        "alice",
+        "bob",
+        "charlie",
+        "dana",
+        "erin",
+        "frank"
+      ],
+      "failure_count": 6,
+      "evidence_lines": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "description": "One source attempted SSH logins against multiple accounts.",
+      "mitre_technique": "T1110.003",
+      "id": "BF-f68d218d5f91"
+    },
+    {
+      "type": "distributed_attack",
+      "severity": "high",
+      "first_seen": "2026-10-20T09:11:40+00:00",
+      "last_seen": "2026-10-20T09:13:20+00:00",
+      "host": "gateway-01",
+      "source_ips": [
+        "203.0.113.70",
+        "203.0.113.71",
+        "203.0.113.72"
+      ],
+      "usernames": [
+        "service"
+      ],
+      "failure_count": 6,
+      "evidence_lines": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "description": "Multiple sources attempted SSH logins against one account.",
+      "mitre_technique": "T1110.001",
+      "id": "BF-ea0a824f474d"
+    }
+  ]
+}
